@@ -66,6 +66,13 @@ def make_data(N_R, N_P, P_parts, M, true_variances, noise_variance, combs, Pnois
     bulked_X_feats = [np.vstack([X, np.random.randn(Pmax - P, N_R + N_P)]) for X,P in zip(X_feats, P_models)]
     print "bulked_X_feats[0].shape", bulked_X_feats[0].shape
 
+    # Generate ideal combinations of features
+    from itertools import combinations, chain
+    feature_combs = list(chain(*[combinations(range(3), n) for n in [1, 2, 3]])) # feature spaces to use in each model
+    Xideal = [np.vstack([np.vstack([X_parts[c] for c in set.union(*[set(combs[i]) for i in fcomb])]),
+                         np.vstack([Xnoise_feats[i] for i in fcomb])])
+              for fcomb in feature_combs]
+
     return locals()
 
 rsq_corr = lambda c: (c ** 2) * np.sign(c) # r -> r^2
@@ -85,6 +92,10 @@ def compare(args1, args2, name1, name2, data_params, data, **kwargs):
     c1_bias, c1_orig_parts, c1_fix_parts = correct_rsqs(corr1, **allargs1)
     c2_bias, c2_orig_parts, c2_fix_parts = correct_rsqs(corr2, **allargs2)
 
+    plot_model_comparison(corr1, corr1 - c1_bias.T, corr2, corr2 - c2_bias.T,
+                         name1 + " orig", name1 + " fixed", name2 + " orig", name2 + " fixed",
+                         errtype=kwargs.get("errtype", "perc"), **data_params)
+
     plot_part_comparison(c1_orig_parts, c1_fix_parts, c2_orig_parts, c2_fix_parts,
                          name1 + " orig", name1 + " fixed", name2 + " orig", name2 + " fixed",
                          errtype=kwargs.get("errtype", "perc"), **data_params)
@@ -93,7 +104,7 @@ def compare(args1, args2, name1, name2, data_params, data, **kwargs):
                 name1, name2, **data_params)
 
 
-def fit_models(X_feats, zY_total, bulked_X_feats, data_params,
+def fit_models(X_feats, zY_total, bulked_X_feats, Xideal, data_params,
                use_ols=False,
                use_features="raw",
                metric="corr",
@@ -116,7 +127,7 @@ def fit_models(X_feats, zY_total, bulked_X_feats, data_params,
     if not use_ols and verbose: figure()
     Psum = sum(data_params['P_models'])
 
-    for comb in feature_combs:
+    for combi,comb in enumerate(feature_combs):
         if verbose: print "\nFitting model %s" % ", ".join([['A','B','C'][c] for c in comb])
         thisP = np.array(data_params['P_models'])[list(comb)].sum()
         
@@ -126,6 +137,8 @@ def fit_models(X_feats, zY_total, bulked_X_feats, data_params,
             Xcomb = npp.zs(np.vstack([bulked_X_feats[c] for c in comb]).T).T # <- bulked gives best results!! ??!!?!
         elif use_features == "same":
             Xcomb = npp.zs(np.vstack([X_feats[c] for c in comb] + [np.random.randn(Psum - thisP, N_R + N_P)]).T).T
+        elif use_features == "ideal":
+            Xcomb = npp.zs(Xideal[combi].T).T
         else:
             raise ValueError(use_features)
         
@@ -208,6 +221,35 @@ def correct_rsqs(b, neg_only=False, minimize="l2", verbose=True, **etc):
     
     return biases, orig_parts, fixed_parts
 
+def plot_model_comparison(est11, est12, est21, est22, name11, name12, name21, name22,
+                          true_variances, model_names, errtype="perc", **etc):
+    # Plot actual vs. estimated variance in each partition
+    figure(figsize=(10,6))
+    feature_combs = list(chain(*[combinations(range(3), n) for n in [1, 2, 3]])) # feature spaces to use in each model
+    combs = etc['combs']
+    theoretical_rsqs = [true_variances[list(set.union(*[set(combs[c]) for c in comb]))].sum() 
+                        for comb in feature_combs]
+    bar(range(7), theoretical_rsqs, align='center', edgecolor='none', facecolor="0.7", label="actual")
+
+    #errtype = "perc" # "std": standard deviation, "perc": 10th-90th percentiles, "sem": standard error of the mean
+    if errtype == "std":
+        errfun = lambda x: x.std(1)
+    elif errtype == "perc":
+        errfun = lambda x: np.abs(np.percentile(x, [25, 75], axis=1) - x.mean(1))
+    elif errtype == "sem":
+        errfun = lambda x: x.std(1) / np.sqrt(x.shape[1])
+
+    eargs = dict(capsize=0, mec='none')
+    x = np.arange(7)
+    errorbar(x - 0.2, est11.mean(1), yerr=errfun(est11), fmt='bo', label=name11, **eargs)
+    errorbar(x - 0.1, est12.mean(1), yerr=errfun(est12), fmt='ro', label=name12, **eargs)
+
+    errorbar(x + 0.1, est21.mean(1), yerr=errfun(est21), fmt='bs', label=name21, **eargs)
+    errorbar(x + 0.2, est22.mean(1), yerr=errfun(est22), fmt='rs', label=name22, **eargs)
+
+    xticks(range(7), model_names);
+    grid(axis='y'); ylabel('Variance in model'); legend(); xlabel("Model");
+
 def plot_part_comparison(est11, est12, est21, est22, name11, name12, name21, name22,
                          true_variances, part_names, errtype="perc", **etc):
     # Plot actual vs. estimated variance in each partition
@@ -232,6 +274,7 @@ def plot_part_comparison(est11, est12, est21, est22, name11, name12, name21, nam
 
     xticks(range(7), part_names);
     grid(axis='y'); ylabel('Variance in partition'); legend(); xlabel("Partition");
+
 
 def plot_biases():
     # Plot actual vs. estimated biases for each partition
