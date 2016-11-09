@@ -1,0 +1,514 @@
+slug,state,suffix,rating,nyt_rating,repProb
+cook,ak,0,Likely R,6,NA
+cook,al,0,Solid R,7,NA
+cook,ar,0,Solid R,7,NA
+cook,az,0,Lean R,5,NA
+cook,ca,0,Solid D,1,NA
+cook,co,0,Lean D,3,NA
+cook,ct,0,Solid D,1,NA
+cook,dc,0,Solid D,1,NA
+cook,de,0,Solid D,1,NA
+cook,fl,0,Toss Up,4,NA
+cook,ga,0,Lean R,5,NA
+cook,hi,0,Solid D,1,NA
+cook,ia,0,Lean R,5,NA
+cook,id,0,Solid R,7,NA
+cook,il,0,Solid D,1,NA
+cook,in,0,Likely R,6,NA
+cook,ks,0,Solid R,7,NA
+cook,ky,0,Solid R,7,NA
+cook,la,0,Solid R,7,NA
+cook,ma,0,Solid D,1,NA
+cook,md,0,Solid D,1,NA
+cook,me-1,1,Solid D,1,NA
+cook,me,0,Likely D,2,NA
+cook,me-2,2,Toss Up,4,NA
+cook,mi,0,Lean D,3,NA
+cook,mn,0,Likely D,2,NA
+cook,mo,0,Likely R,6,NA
+cook,ms,0,Solid R,7,NA
+cook,mt,0,Solid R,7,NA
+cook,nc,0,Toss Up,4,NA
+cook,nd,0,Solid R,7,NA
+cook,ne-2,2,Toss Up,4,NA
+cook,ne,0,Solid R,7,NA
+cook,ne-1,1,Solid R,7,NA
+cook,ne-3,3,Solid R,7,NA
+cook,nh,0,Lean D,3,NA
+cook,nj,0,Solid D,1,NA
+cook,nm,0,Likely D,2,NA
+cook,nv,0,Lean D,3,NA
+cook,ny,0,Solid D,1,NA
+cook,oh,0,Lean R,5,NA
+cook,ok,0,Solid R,7,NA
+cook,or,0,Solid D,1,NA
+cook,pa,0,Lean D,3,NA
+cook,ri,0,Solid D,1,NA
+cook,sc,0,Likely R,6,NA
+cook,sd,0,Solid R,7,NA
+cook,tn,0,Solid R,7,NA
+cook,tx,0,Likely R,6,NA
+cook,us,0,NA,3,NA
+cook,ut,0,Lean R,5,NA
+cook,va,0,Likely D,2,NA
+cook,vt,0,Solid D,1,NA
+cook,wa,0,Solid D,1,NA
+cook,wi,0,Lean D,3,NA
+cook,wv,0,Solid R,7,NA
+cook,wy,0,Solid R,7,NA
+dailykos,ak,0,NA,7,1
+dailykos,al,0,NA,7,1
+dailykos,ar,0,NA,7,1
+dailykos,az,0,NA,6,0.9194
+dailykos,ca,0,NA,1,0
+dailykos,co,0,NA,1,0.0016
+dailykos,ct,0,NA,1,0
+dailykos,dc,0,NA,1,0
+dailykos,de,0,NA,1,0
+dailykos,fl,0,NA,2,0.1216
+dailykos,ga,0,NA,7,0.9728
+dailykos,hi,0,NA,1,0
+dailykos,ia,0,NA,7,0.9816
+dailykos,id,0,NA,7,1
+dailykos,il,0,NA,1,0
+dailykos,in,0,NA,7,1
+dailykos,ks,0,NA,7,1
+dailykos,ky,0,NA,7,1
+dailykos,la,0,NA,7,1
+dailykos,ma,0,NA,1,0
+dailykos,md,0,NA,1,0
+dailykos,me,0,NA,1,0
+dailykos,me-1,1,NA,8,NA
+dailykos,me-2,2,NA,8,NA
+dailykos,mi,0,NA,1,3e-04
+dailykos,mn,0,NA,1,0
+dailykos,mo,0,NA,7,1
+dailykos,ms,0,NA,7,1
+dailykos,mt,0,NA,7,1
+dailykos,nc,0,NA,3,0.25
+dailykos,nd,0,NA,7,1
+dailykos,ne,0,NA,7,1
+dailykos,ne-1,1,NA,8,NA
+dailykos,ne-2,2,NA,8,NA
+dailykos,ne-3,3,NA,8,NA
+dailykos,nh,0,NA,1,0.0072
+dailykos,nj,0,NA,1,0
+dailykos,nm,0,NA,1,0
+dailykos,nv,0,NA,3,0.2863
+dailykos,ny,0,NA,1,0
+dailykos,oh,0,NA,6,0.8747
+dailykos,ok,0,NA,7,1
+dailykos,or,0,NA,1,0
+dailykos,pa,0,NA,1,9e-04
+dailykos,ri,0,NA,1,0
+dailykos,sc,0,NA,7,0.9997
+dailykos,sd,0,NA,7,1
+dailykos,tn,0,NA,7,1
+dailykos,tx,0,NA,7,1
+dailykos,us,0,NA,2,0.07838
+dailykos,ut,0,NA,7,1
+dailykos,va,0,NA,1,0
+dailykos,vt,0,NA,1,0
+dailykos,wa,0,NA,1,0
+dailykos,wi,0,NA,1,0.0012
+dailykos,wv,0,NA,7,1
+dailykos,wy,0,NA,7,1
+fte,ak,0,NA,5,0.7636
+fte,al,0,NA,7,0.9995
+fte,ar,0,NA,7,0.9972
+fte,az,0,NA,5,0.6581
+fte,ca,0,NA,1,8e-04
+fte,co,0,NA,3,0.2269
+fte,ct,0,NA,1,0.0291
+fte,dc,0,NA,1,2e-04
+fte,de,0,NA,2,0.0834
+fte,fl,0,NA,4,0.4446
+fte,ga,0,NA,5,0.7943
+fte,hi,0,NA,1,0.0102
+fte,ia,0,NA,5,0.6935
+fte,id,0,NA,7,0.9913
+fte,il,0,NA,1,0.0166
+fte,in,0,NA,7,0.972
+fte,ks,0,NA,7,0.971
+fte,ky,0,NA,7,0.9959
+fte,la,0,NA,7,0.9946
+fte,ma,0,NA,1,6e-04
+fte,md,0,NA,1,4e-04
+fte,me-1,1,NA,2,0.0875
+fte,me,0,NA,3,0.1759
+fte,me-2,2,NA,4,0.4857
+fte,mi,0,NA,3,0.208
+fte,mn,0,NA,2,0.1472
+fte,mo,0,NA,7,0.9606
+fte,ms,0,NA,7,0.976
+fte,mt,0,NA,7,0.9585
+fte,nc,0,NA,4,0.4413
+fte,nd,0,NA,7,0.9782
+fte,ne-2,2,NA,4,0.5579
+fte,ne-1,1,NA,6,0.8946
+fte,ne,0,NA,7,0.9774
+fte,ne-3,3,NA,7,0.9919
+fte,nh,0,NA,3,0.3029
+fte,nj,0,NA,1,0.0308
+fte,nm,0,NA,3,0.1743
+fte,nv,0,NA,4,0.4203
+fte,ny,0,NA,1,0.0026
+fte,oh,0,NA,4,0.6493
+fte,ok,0,NA,7,0.9999
+fte,or,0,NA,2,0.0643
+fte,pa,0,NA,3,0.2277
+fte,ri,0,NA,2,0.0692
+fte,sc,0,NA,6,0.901
+fte,sd,0,NA,6,0.9419
+fte,tn,0,NA,7,0.9738
+fte,tx,0,NA,6,0.9424
+fte,us,0,NA,3,0.2844
+fte,ut,0,NA,5,0.8276
+fte,va,0,NA,2,0.1426
+fte,vt,0,NA,1,0.0176
+fte,wa,0,NA,1,0.0188
+fte,wi,0,NA,3,0.165
+fte,wv,0,NA,7,0.9983
+fte,wy,0,NA,7,0.9896
+huffpost,ak,0,NA,7,0.98935
+huffpost,al,0,NA,7,1
+huffpost,ar,0,NA,7,1
+huffpost,az,0,NA,6,0.85535
+huffpost,ca,0,NA,1,0
+huffpost,co,0,NA,1,0.00026
+huffpost,ct,0,NA,1,2e-05
+huffpost,dc,0,NA,1,1e-05
+huffpost,de,0,NA,1,0
+huffpost,fl,0,NA,2,0.11033
+huffpost,ga,0,NA,6,0.89931
+huffpost,hi,0,NA,1,1e-05
+huffpost,ia,0,NA,6,0.87497
+huffpost,id,0,NA,7,1
+huffpost,il,0,NA,1,0
+huffpost,in,0,NA,7,0.9984
+huffpost,ks,0,NA,7,1
+huffpost,ky,0,NA,7,1
+huffpost,la,0,NA,7,1
+huffpost,ma,0,NA,1,0
+huffpost,md,0,NA,1,0
+huffpost,me,0,NA,1,0.00188
+huffpost,me-1,1,NA,1,0.00249999999999995
+huffpost,me-2,2,NA,4,0.5
+huffpost,mi,0,NA,1,0.01119
+huffpost,mn,0,NA,1,0.00202
+huffpost,mo,0,NA,7,0.99904
+huffpost,ms,0,NA,7,0.99876
+huffpost,mt,0,NA,7,1
+huffpost,nc,0,NA,3,0.19533
+huffpost,nd,0,NA,7,1
+huffpost,ne-2,2,NA,4,0.5
+huffpost,ne,0,NA,7,1
+huffpost,ne-1,1,NA,7,0.9975
+huffpost,ne-3,3,NA,7,0.9975
+huffpost,nh,0,NA,2,0.07136
+huffpost,nj,0,NA,1,0.00015
+huffpost,nm,0,NA,1,0.00032
+huffpost,nv,0,NA,2,0.12093
+huffpost,ny,0,NA,1,0
+huffpost,oh,0,NA,5,0.70333
+huffpost,ok,0,NA,7,1
+huffpost,or,0,NA,1,1e-05
+huffpost,pa,0,NA,1,0.00294
+huffpost,ri,0,NA,1,0
+huffpost,sc,0,NA,7,0.95717
+huffpost,sd,0,NA,7,1
+huffpost,tn,0,NA,7,1
+huffpost,tx,0,NA,7,0.99444
+huffpost,us,0,NA,1,0.01767
+huffpost,ut,0,NA,7,0.99975
+huffpost,va,0,NA,1,0.00445
+huffpost,vt,0,NA,1,0
+huffpost,wa,0,NA,1,2e-05
+huffpost,wi,0,NA,1,0.0086
+huffpost,wv,0,NA,7,1
+huffpost,wy,0,NA,7,1
+nyt,ak,0,NA,5,0.84428
+nyt,al,0,NA,7,0.99804
+nyt,ar,0,NA,7,0.99837
+nyt,az,0,NA,5,0.82892
+nyt,ca,0,NA,1,5e-05
+nyt,co,0,NA,2,0.12299
+nyt,ct,0,NA,1,0.00427
+nyt,dc,0,NA,1,0
+nyt,de,0,NA,1,0.00591
+nyt,fl,0,NA,3,0.3272
+nyt,ga,0,NA,5,0.82295
+nyt,hi,0,NA,1,4e-05
+nyt,ia,0,NA,4,0.61678
+nyt,id,0,NA,7,0.99978
+nyt,il,0,NA,1,0.00172
+nyt,in,0,NA,7,0.9807
+nyt,ks,0,NA,7,0.99745
+nyt,ky,0,NA,7,0.99979
+nyt,la,0,NA,7,0.98908
+nyt,ma,0,NA,1,0.00054
+nyt,md,0,NA,1,3e-05
+nyt,me-1,1,NA,1,0.00449
+nyt,me,0,NA,2,0.09492
+nyt,me-2,2,NA,4,0.6308
+nyt,mi,0,NA,2,0.06655
+nyt,mn,0,NA,2,0.06606
+nyt,mo,0,NA,7,0.97853
+nyt,ms,0,NA,5,0.84786
+nyt,mt,0,NA,7,0.99166
+nyt,nc,0,NA,4,0.36161
+nyt,nd,0,NA,7,0.99733
+nyt,ne-2,2,NA,5,0.78658
+nyt,ne,0,NA,7,0.99933
+nyt,ne-1,1,NA,7,0.99338
+nyt,ne-3,3,NA,7,1
+nyt,nh,0,NA,3,0.20397
+nyt,nj,0,NA,1,0.00239
+nyt,nm,0,NA,2,0.05712
+nyt,nv,0,NA,3,0.31722
+nyt,ny,0,NA,1,8e-05
+nyt,oh,0,NA,4,0.52982
+nyt,ok,0,NA,7,0.99988
+nyt,or,0,NA,1,0.02408
+nyt,pa,0,NA,2,0.11433
+nyt,ri,0,NA,1,0.00097
+nyt,sc,0,NA,6,0.89234
+nyt,sd,0,NA,7,0.99955
+nyt,tn,0,NA,7,0.99666
+nyt,tx,0,NA,7,0.95768
+nyt,us,0,NA,3,0.15723
+nyt,ut,0,NA,5,0.72061
+nyt,va,0,NA,1,0.04719
+nyt,vt,0,NA,1,1e-04
+nyt,wa,0,NA,1,0.00332
+nyt,wi,0,NA,2,0.07327
+nyt,wv,0,NA,7,0.99572
+nyt,wy,0,NA,7,1
+pec,ak,0,NA,7,0.96
+pec,al,0,NA,7,1
+pec,ar,0,NA,7,1
+pec,az,0,NA,6,0.91
+pec,ca,0,NA,1,0
+pec,co,0,NA,1,0.04
+pec,ct,0,NA,1,0.01
+pec,dc,0,NA,1,0
+pec,de,0,NA,1,0
+pec,fl,0,NA,3,0.31
+pec,ga,0,NA,6,0.88
+pec,hi,0,NA,1,0
+pec,ia,0,NA,5,0.74
+pec,id,0,NA,7,1
+pec,il,0,NA,1,0
+pec,in,0,NA,7,1
+pec,ks,0,NA,7,1
+pec,ky,0,NA,7,1
+pec,la,0,NA,7,1
+pec,ma,0,NA,1,0
+pec,md,0,NA,1,0
+pec,me,0,NA,1,0.02
+pec,me-1,1,NA,1,0
+pec,me-2,2,NA,4,0.4
+pec,mi,0,NA,3,0.21
+pec,mn,0,NA,1,0.02
+pec,mo,0,NA,7,1
+pec,ms,0,NA,7,1
+pec,mt,0,NA,7,1
+pec,nc,0,NA,3,0.33
+pec,nd,0,NA,7,1
+pec,ne-2,2,NA,6,0.92
+pec,ne,0,NA,7,1
+pec,ne-1,1,NA,7,1
+pec,ne-3,3,NA,7,1
+pec,nh,0,NA,4,0.37
+pec,nj,0,NA,1,0
+pec,nm,0,NA,2,0.09
+pec,nv,0,NA,3,0.16
+pec,ny,0,NA,1,0
+pec,oh,0,NA,4,0.63
+pec,ok,0,NA,7,1
+pec,or,0,NA,1,0
+pec,pa,0,NA,3,0.21
+pec,ri,0,NA,1,0
+pec,sc,0,NA,7,0.99
+pec,sd,0,NA,7,1
+pec,tn,0,NA,7,1
+pec,tx,0,NA,7,1
+pec,us,0,NA,1,0
+pec,ut,0,NA,7,1
+pec,va,0,NA,1,0.02
+pec,vt,0,NA,1,0
+pec,wa,0,NA,1,0
+pec,wi,0,NA,1,0.02
+pec,wv,0,NA,7,1
+pec,wy,0,NA,7,1
+predictwise,ak,0,NA,7,0.96
+predictwise,al,0,NA,7,1
+predictwise,ar,0,NA,7,1
+predictwise,az,0,NA,5,0.79
+predictwise,ca,0,NA,1,0
+predictwise,co,0,NA,2,0.06
+predictwise,ct,0,NA,1,0
+predictwise,dc,0,NA,1,0
+predictwise,de,0,NA,1,0
+predictwise,fl,0,NA,3,0.24
+predictwise,ga,0,NA,6,0.9
+predictwise,hi,0,NA,1,0
+predictwise,ia,0,NA,5,0.78
+predictwise,id,0,NA,7,1
+predictwise,il,0,NA,1,0
+predictwise,in,0,NA,7,0.99
+predictwise,ks,0,NA,7,1
+predictwise,ky,0,NA,7,1
+predictwise,la,0,NA,7,1
+predictwise,ma,0,NA,1,0
+predictwise,md,0,NA,1,0
+predictwise,me,0,NA,1,0.02
+predictwise,me-1,1,NA,1,0.02
+predictwise,me-2,2,NA,4,0.52
+predictwise,mi,0,NA,2,0.05
+predictwise,mn,0,NA,1,0.01
+predictwise,mo,0,NA,7,1
+predictwise,ms,0,NA,7,1
+predictwise,mt,0,NA,6,0.93
+predictwise,nc,0,NA,4,0.38
+predictwise,nd,0,NA,7,1
+predictwise,ne-2,2,NA,5,0.79
+predictwise,ne,0,NA,7,1
+predictwise,ne-1,1,NA,7,1
+predictwise,ne-3,3,NA,7,1
+predictwise,nh,0,NA,3,0.15
+predictwise,nj,0,NA,1,0
+predictwise,nm,0,NA,1,0.02
+predictwise,nv,0,NA,2,0.08
+predictwise,ny,0,NA,1,0
+predictwise,oh,0,NA,5,0.71
+predictwise,ok,0,NA,7,1
+predictwise,or,0,NA,1,0
+predictwise,pa,0,NA,2,0.06
+predictwise,ri,0,NA,1,0
+predictwise,sc,0,NA,7,0.99
+predictwise,sd,0,NA,7,0.99
+predictwise,tn,0,NA,7,1
+predictwise,tx,0,NA,7,0.99
+predictwise,us,0,NA,2,0.12
+predictwise,ut,0,NA,6,0.87
+predictwise,va,0,NA,1,0.02
+predictwise,vt,0,NA,1,0
+predictwise,wa,0,NA,1,0
+predictwise,wi,0,NA,1,0.02
+predictwise,wv,0,NA,7,1
+predictwise,wy,0,NA,7,1
+rothenberg,ak,0,currently-safe-republican,7,NA
+rothenberg,al,0,currently-safe-republican,7,NA
+rothenberg,ar,0,currently-safe-republican,7,NA
+rothenberg,az,0,toss-up-tilt-republican,5,NA
+rothenberg,ca,0,currently-safe-democrat,1,NA
+rothenberg,co,0,democrat-favored,2,NA
+rothenberg,ct,0,currently-safe-democrat,1,NA
+rothenberg,dc,0,currently-safe-democrat,1,NA
+rothenberg,de,0,currently-safe-democrat,1,NA
+rothenberg,fl,0,toss-up-tilt-democrat,3,NA
+rothenberg,ga,0,lean-republican,5,NA
+rothenberg,hi,0,currently-safe-democrat,1,NA
+rothenberg,ia,0,toss-up-tilt-republican,5,NA
+rothenberg,id,0,currently-safe-republican,7,NA
+rothenberg,il,0,currently-safe-democrat,1,NA
+rothenberg,in,0,lean-republican,5,NA
+rothenberg,ks,0,currently-safe-republican,7,NA
+rothenberg,ky,0,currently-safe-republican,7,NA
+rothenberg,la,0,currently-safe-republican,7,NA
+rothenberg,ma,0,currently-safe-democrat,1,NA
+rothenberg,md,0,currently-safe-democrat,1,NA
+rothenberg,me-1,1,NA,1,NA
+rothenberg,me,0,democrat-favored,2,NA
+rothenberg,me-2,2,NA,4,NA
+rothenberg,mi,0,lean-democrat,3,NA
+rothenberg,mn,0,democrat-favored,2,NA
+rothenberg,mo,0,republican-favored,6,NA
+rothenberg,ms,0,currently-safe-republican,7,NA
+rothenberg,mt,0,currently-safe-republican,7,NA
+rothenberg,nc,0,toss-up-tilt-democrat,3,NA
+rothenberg,nd,0,currently-safe-republican,7,NA
+rothenberg,ne-2,2,NA,4,NA
+rothenberg,ne,0,republican-favored,6,NA
+rothenberg,ne-1,1,NA,7,NA
+rothenberg,ne-3,3,NA,7,NA
+rothenberg,nh,0,lean-democrat,3,NA
+rothenberg,nj,0,currently-safe-democrat,1,NA
+rothenberg,nm,0,currently-safe-democrat,1,NA
+rothenberg,nv,0,toss-up-tilt-democrat,3,NA
+rothenberg,ny,0,currently-safe-democrat,1,NA
+rothenberg,oh,0,pure-toss-up,4,NA
+rothenberg,ok,0,currently-safe-republican,7,NA
+rothenberg,or,0,currently-safe-democrat,1,NA
+rothenberg,pa,0,lean-democrat,3,NA
+rothenberg,ri,0,currently-safe-democrat,1,NA
+rothenberg,sc,0,currently-safe-republican,7,NA
+rothenberg,sd,0,currently-safe-republican,7,NA
+rothenberg,tn,0,currently-safe-republican,7,NA
+rothenberg,tx,0,currently-safe-republican,7,NA
+rothenberg,us,0,NA,3,NA
+rothenberg,ut,0,lean-republican,5,NA
+rothenberg,va,0,democrat-favored,2,NA
+rothenberg,vt,0,currently-safe-democrat,1,NA
+rothenberg,wa,0,currently-safe-democrat,1,NA
+rothenberg,wi,0,toss-up-tilt-democrat,3,NA
+rothenberg,wv,0,currently-safe-republican,7,NA
+rothenberg,wy,0,currently-safe-republican,7,NA
+sabato,ak,0,Likely R,6,NA
+sabato,al,0,Safe R,7,NA
+sabato,ar,0,Safe R,7,NA
+sabato,az,0,Leans R,5,NA
+sabato,ca,0,Safe D,1,NA
+sabato,co,0,Likely D,2,NA
+sabato,ct,0,Safe D,1,NA
+sabato,dc,0,Safe D,1,NA
+sabato,de,0,Safe D,1,NA
+sabato,fl,0,Leans D,3,NA
+sabato,ga,0,Likely R,6,NA
+sabato,hi,0,Safe D,1,NA
+sabato,ia,0,Leans R,5,NA
+sabato,id,0,Safe R,7,NA
+sabato,il,0,Safe D,1,NA
+sabato,in,0,Safe R,7,NA
+sabato,ks,0,Safe R,7,NA
+sabato,ky,0,Safe R,7,NA
+sabato,la,0,Safe R,7,NA
+sabato,ma,0,Safe D,1,NA
+sabato,md,0,Safe D,1,NA
+sabato,me-1,1,Safe D,1,NA
+sabato,me,0,Likely D,2,NA
+sabato,me-2,2,Leans R,5,NA
+sabato,mi,0,Leans D,3,NA
+sabato,mn,0,Likely D,2,NA
+sabato,mo,0,Safe R,7,NA
+sabato,ms,0,Safe R,7,NA
+sabato,mt,0,Safe R,7,NA
+sabato,nc,0,Leans D,3,NA
+sabato,nd,0,Safe R,7,NA
+sabato,ne-2,2,Leans R,5,NA
+sabato,ne,0,Safe R,7,NA
+sabato,ne-1,1,Safe R,7,NA
+sabato,ne-3,3,Safe R,7,NA
+sabato,nh,0,Leans D,3,NA
+sabato,nj,0,Safe D,1,NA
+sabato,nm,0,Likely D,2,NA
+sabato,nv,0,Leans D,3,NA
+sabato,ny,0,Safe D,1,NA
+sabato,oh,0,Leans R,5,NA
+sabato,ok,0,Safe R,7,NA
+sabato,or,0,Safe D,1,NA
+sabato,pa,0,Leans D,3,NA
+sabato,ri,0,Safe D,1,NA
+sabato,sc,0,Safe R,7,NA
+sabato,sd,0,Safe R,7,NA
+sabato,tn,0,Safe R,7,NA
+sabato,tx,0,Safe R,7,NA
+sabato,us,0,NA,3,NA
+sabato,ut,0,Leans R,5,NA
+sabato,va,0,Likely D,2,NA
+sabato,vt,0,Safe D,1,NA
+sabato,wa,0,Safe D,1,NA
+sabato,wi,0,Likely D,2,NA
+sabato,wv,0,Safe R,7,NA
+sabato,wy,0,Safe R,7,NA
